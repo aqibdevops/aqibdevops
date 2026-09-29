@@ -1,53 +1,64 @@
-# Aqib Javaid | Senior DevOps, Cloud & Platform Engineer
+<div align="center">
 
-[GitHub](https://github.com/aqibdevops) · [Email](mailto:aqibjavaid817@gmail.com)
+# Aqib Javaid
+### Senior DevOps · Cloud · Platform Engineering
 
-I design and automate secure, reliable cloud platforms and delivery systems. My work focuses on infrastructure as code, CI/CD, Kubernetes, cloud migration, security automation, observability, and MLOps—building the foundations that help engineering teams ship with confidence.
+**Building secure, reliable cloud platforms and delivery systems through automation.**
 
-**Focus areas:** Cloud & platform engineering · DevSecOps · Infrastructure as Code · Kubernetes · SRE & observability · MLOps
+<a href="https://github.com/aqibdevops">GitHub</a> · <a href="mailto:aqibjavaid817@gmail.com">Email</a>
 
-## Portfolio
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Platform-326CE5?logo=kubernetes&logoColor=white)
+![DevSecOps](https://img.shields.io/badge/DevSecOps-Security-red?logo=shieldsdotio&logoColor=white)
+![MLOps](https://img.shields.io/badge/MLOps-MLflow-0194E2?logo=mlflow&logoColor=white)
 
-This portfolio brings together ten infrastructure-focused projects demonstrating practical patterns for designing, securing, deploying, and operating cloud platforms. The examples emphasize automation and platform capabilities over application business logic.
+</div>
 
-| Repository | What it demonstrates |
-|---|---|
-| [`devops-container-security`](https://github.com/aqibdevops/devops-container-security) | Container hardening, image scanning, software bill of materials, and secure build practices. |
-| [`devsecops-cicd-platform`](https://github.com/aqibdevops/devsecops-cicd-platform) | CI/CD pipelines with security checks, policy gates, and repeatable release workflows. |
-| [`aws-terraform-landing-zone`](https://github.com/aqibdevops/aws-terraform-landing-zone) | AWS account foundations, networking, identity, and governance patterns managed with Terraform. |
-| [`vm-to-ecs-modernization`](https://github.com/aqibdevops/vm-to-ecs-modernization) | A migration path from virtual machines to containerized workloads on Amazon ECS. |
-| [`vm-to-eks-migration`](https://github.com/aqibdevops/vm-to-eks-migration) | A migration path from virtual machines to Kubernetes on Amazon EKS. |
-| [`kubernetes-gitops-platform`](https://github.com/aqibdevops/kubernetes-gitops-platform) | Kubernetes platform delivery using GitOps, Helm, Kustomize, and Argo CD. |
-| [`multi-iac-automation`](https://github.com/aqibdevops/multi-iac-automation) | Infrastructure automation patterns spanning Terraform, CloudFormation, Ansible, Chef, Puppet, and Packer. |
-| [`cloud-automation-toolkit`](https://github.com/aqibdevops/cloud-automation-toolkit) | Reusable Python, Bash, and PowerShell tools for cloud and operations workflows. |
-| [`sre-observability-platform`](https://github.com/aqibdevops/sre-observability-platform) | Metrics, dashboards, alerting, and operational visibility with Prometheus, Grafana, and Alertmanager. |
-| [`mlops-ai-platform`](https://github.com/aqibdevops/mlops-ai-platform) | Platform foundations for model lifecycle workflows, experiment tracking, and MLOps with MLflow. |
+---
 
-## Engineering toolkit
+## About
 
-- **Cloud:** AWS, with Azure-ready patterns
-- **Infrastructure & configuration:** Terraform, CloudFormation, Ansible, Chef, Puppet, Packer
-- **Containers & orchestration:** Docker, Amazon ECS, Amazon EKS, Kubernetes, Helm, Kustomize
-- **GitOps & delivery:** Argo CD, GitHub Actions, Azure DevOps
-- **Security:** Trivy, Grype, Syft, Gitleaks, Checkov
-- **Reliability & observability:** Prometheus, Grafana, Alertmanager
-- **Automation & MLOps:** Python, Bash, PowerShell, MLflow
+I focus on the systems and workflows that help engineering teams build, release, and operate software confidently. This portfolio explores infrastructure as code, CI/CD, Kubernetes, cloud migration, security automation, observability, and MLOps—with an emphasis on reusable platform capabilities over application business logic.
 
-## How I approach platform engineering
+## Portfolio projects
 
-- Build repeatable infrastructure with clear configuration boundaries.
-- Integrate security checks throughout the delivery lifecycle.
-- Prefer observable systems with useful dashboards and actionable alerts.
-- Document operational decisions, migration steps, and deployment workflows.
-- Design examples to be adaptable across environments and teams.
+| Project | Focus |
+|:--|:--|
+| [**Container Security**](https://github.com/aqibdevops/devops-container-security) | Hardened container builds, image scanning, and software bill of materials. |
+| [**DevSecOps CI/CD Platform**](https://github.com/aqibdevops/devsecops-cicd-platform) | Delivery workflows with integrated security checks and policy gates. |
+| [**AWS Terraform Landing Zone**](https://github.com/aqibdevops/aws-terraform-landing-zone) | AWS account foundations, networking, identity, and governance as code. |
+| [**VM to ECS Modernization**](https://github.com/aqibdevops/vm-to-ecs-modernization) | Patterns for moving virtual machine workloads to Amazon ECS. |
+| [**VM to EKS Migration**](https://github.com/aqibdevops/vm-to-eks-migration) | Patterns for moving virtual machine workloads to Amazon EKS. |
+| [**Kubernetes GitOps Platform**](https://github.com/aqibdevops/kubernetes-gitops-platform) | Kubernetes delivery with Argo CD, Helm, and Kustomize. |
+| [**Multi-IaC Automation**](https://github.com/aqibdevops/multi-iac-automation) | Automation patterns with Terraform, CloudFormation, Ansible, Chef, Puppet, and Packer. |
+| [**Cloud Automation Toolkit**](https://github.com/aqibdevops/cloud-automation-toolkit) | Practical cloud operations utilities in Python, Bash, and PowerShell. |
+| [**SRE Observability Platform**](https://github.com/aqibdevops/sre-observability-platform) | Metrics, dashboards, and alerting with Prometheus, Grafana, and Alertmanager. |
+| [**MLOps AI Platform**](https://github.com/aqibdevops/mlops-ai-platform) | Model lifecycle and experiment tracking patterns with MLflow. |
 
-## Security and deployment
+## Technology
 
-All cloud account IDs, domains, credentials, certificates, and customer information in these repositories are placeholders. Before using any example in a real environment, supply values through an approved secrets manager, GitHub Secrets, OIDC, and environment-specific configuration. Never commit live credentials or private keys.
+| Area | Tools and platforms |
+|:--|:--|
+| **Cloud** | AWS · Azure-ready patterns |
+| **Infrastructure** | Terraform · CloudFormation · Ansible · Chef · Puppet · Packer |
+| **Containers** | Docker · ECS · EKS · Kubernetes · Helm · Kustomize |
+| **Delivery & GitOps** | GitHub Actions · Azure DevOps · Argo CD |
+| **Security** | Trivy · Grype · Syft · Gitleaks · Checkov |
+| **Observability** | Prometheus · Grafana · Alertmanager |
+| **Automation & MLOps** | Python · Bash · PowerShell · MLflow |
+
+## Engineering principles
+
+- **Automate repeatable work** with versioned infrastructure and consistent delivery workflows.
+- **Build security into delivery** with scanning, policy checks, and careful secrets handling.
+- **Design for operations** with meaningful metrics, useful dashboards, and actionable alerts.
+- **Make platforms understandable** through clear documentation and maintainable examples.
+
+## Security note
+
+Cloud IDs, domains, credentials, certificates, and customer information in these repositories are placeholders. Configure real values through GitHub Secrets, OIDC, a secrets manager, and environment-specific configuration. Never commit live credentials or private keys.
 
 ## Contact
 
-For platform engineering, DevOps, cloud, or MLOps opportunities, reach me at **[aqibjavaid817@gmail.com](mailto:aqibjavaid817@gmail.com)**.
-
-
-
+Interested in DevOps, cloud, platform engineering, or MLOps opportunities? [Get in touch](mailto:aqibjavaid817@gmail.com).
